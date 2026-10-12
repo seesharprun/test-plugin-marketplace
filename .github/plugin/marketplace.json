@@ -1,0 +1,18 @@
+{
+  "name": "code-reviewers",
+  "owner": {
+    "name": "seesharprun"
+  },
+  "metadata": {
+    "description": "Review .NET code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dotnet-code-reviewer",
+      "description": "Review C#/.NET code.",
+      "version": "1.0.0",
+      "source": "./plugins/dotnet-code-reviewer"
+    }
+  ]
+}
